@@ -1,0 +1,57 @@
+body.container {
+	background-color: whitesmoke;
+}
+
+form {
+	width: 45%;
+    margin: 70px auto;
+    padding: 40px;
+    background-color: white;
+}
+
+form#registration-form {
+	margin-bottom: 0;
+}
+
+form#login-btn {
+	margin-top: 0;
+	display: none;
+	background-color: lavender;
+}
+
+form label.form-title {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+input.form-control, button {
+	border-radius: unset !important;
+}
+
+button {
+	width: 100%;
+	padding: 10px !important;
+}
+
+.input-group-text {
+	border-radius: unset !important;
+}
+
+.invalid-tooltip {
+	top: unset !important;
+	bottom: 100%;
+}
+
+.error-notification {
+	padding: 10px;
+	background-color: rgba(220,53,69,.9);
+	color: white;
+	margin-bottom: 10px;
+}
+
+.success-notification {
+	padding: 10px;
+	background-color: #28a745;
+	color: white;
+	margin-bottom: 10px;
+}
